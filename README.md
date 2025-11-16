@@ -16,9 +16,7 @@ Here, the network has three nodes:
 |Node 3|q6, q7, q8|
 
 Initial state:
-
-<center>|ψ<sub>0</sub>⟩ = |101000000⟩</center>
-
+∣ψ<sub>0</sub>⟩=∣101000000⟩
 
 ## Transport Mechanism
 Each hop is implemented using two CNOT layers:
@@ -33,20 +31,33 @@ CNOT(q<sub>i+3</sub>→q<sub>i</sub>)
 This pair transfers the 3-qubit state coherently between nodes without destroying superposition.
 
 Mathematically, the hop unitary is:
-<p align="center">
-$$
-U_{\text{hop}}=\prod_{i=0}^{2}\mathrm{CNOT}(i\rightarrow i+3)\mathrm{CNOT}(i+3\rightarrow i)
-$$
-</p>
+<div align="center">
 
+<table>
+<tr><td>
+$$
+U_{\text{hop}} = \prod_{i=0}^{2} \mathrm{CNOT}(i \rightarrow i+3)\,\mathrm{CNOT}(i+3 \rightarrow i)
+$$
+</td></tr>
+</table>
+
+</div>
 
 Equivalent to a reversible SWAP-like operation:
 
-<p align="center">
+<div align="center">
+
+<table>
+<tr><td>
+
 $$
-U_{\text{hop}} \|xyz\rangle |000\rangle = |000\rangle\|xyz\rangle
+U_{\text{hop}} \; |xyz\rangle |000\rangle = |000\rangle\,|xyz\rangle
 $$
-</p>
+
+</td></tr>
+</table>
+
+</div>
 
 Applying it twice routes the state through Node 2 to Node 3.
 
