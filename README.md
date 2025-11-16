@@ -4,7 +4,7 @@ A Qiskit-based framework demonstrating coherent state transfer across a 3-node q
 
 This repository implements a minimal but fully transparent simulation of quantum state transport using native Qiskit operations. It visualizes the transport pathway, generates measurement statistics, and exports circuit diagrams and histograms automatically.
 
---
+---
 
 ## Introduction
 Quantum coherent transport moves a quantum state across spatially separated nodes using unitary, reversible operations.
@@ -44,7 +44,7 @@ $$
 
 Applying it twice routes the state through Node 2 to Node 3.
 
---
+---
 
 ## Results
 
@@ -79,5 +79,7 @@ Ideal simulation yields:
 - IBM Quantum Aer Documentation
 - “Quantum State Routing via CNOT Networks”, 2023
 --- 
+
 **_Authored by: Abhiroop Gohar_**
+
 ---
