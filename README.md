@@ -16,16 +16,9 @@ Here, the network has three nodes:
 |Node 3|q6, q7, q8|
 
 Initial state:
+
 <div align="center">
-
-<table>
-<tr><td>
-
 ∣ψ<sub>0</sub>⟩=∣101000000⟩
-
-</td></tr>
-</table>
-
 </div>
 
 ## Transport Mechanism
