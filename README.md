@@ -35,26 +35,18 @@ This pair transfers the 3-qubit state coherently between nodes without destroyin
 Mathematically, the hop unitary is:
 <p align="center">
 $$
-U_{\text{hop}} = \prod_{i=0}^{2} \mathrm{CNOT}(i \rightarrow i+3)\,\mathrm{CNOT}(i+3 \rightarrow i)
+U_{\text{hop}}=\prod_{i=0}^{2}\mathrm{CNOT}(i\rightarrow i+3)\mathrm{CNOT}(i+3\rightarrow i)
 $$
 </p>
 
 
 Equivalent to a reversible SWAP-like operation:
 
-<div align="center">
-
-<table>
-<tr><td>
-
+<p align="center">
 $$
 U_{\text{hop}} \|xyz\rangle |000\rangle = |000\rangle\|xyz\rangle
 $$
-
-</td></tr>
-</table>
-
-</div>
+</p>
 
 Applying it twice routes the state through Node 2 to Node 3.
 
