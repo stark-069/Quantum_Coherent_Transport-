@@ -2,7 +2,7 @@
 A Qiskit-based framework demonstrating coherent state transfer across a 3-node quantum network using cascaded CNOT operations.
 ### NOTE
 This repository implements a minimal but fully transparent simulation of quantum state transport using native Qiskit operations. It visualizes the transport pathway, generates measurement statistics, and exports circuit diagrams and histograms automatically.
---- 
+--
 
 ## Introduction
 Quantum coherent transport moves a quantum state across spatially separated nodes using unitary, reversible operations.
@@ -12,6 +12,7 @@ Here, the network has three nodes:
 |Node 1|q0, q1, q2|
 |Node 2|q3, q4, q5|
 |Node 3|q6, q7, q8|
+
 Initial state:
 ∣ψ<sub>0</sub>⟩=∣101000000⟩
 
@@ -34,7 +35,7 @@ Equivalent to a reversible SWAP-like operation:
 U<sub>hop</sub>∣xyz⟩∣000⟩=∣000⟩∣xyz⟩
 
 Applying it twice routes the state through Node 2 to Node 3.
----
+--
 
 ## Results
 
