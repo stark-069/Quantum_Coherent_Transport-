@@ -17,9 +17,8 @@ Here, the network has three nodes:
 
 Initial state:
 
-<p align="center">
-|ψ<sub>0</sub>⟩ = |101000000⟩
-</p>
+<center>|ψ<sub>0</sub>⟩ = |101000000⟩</center>
+
 
 ## Transport Mechanism
 Each hop is implemented using two CNOT layers:
