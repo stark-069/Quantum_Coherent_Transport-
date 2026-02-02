@@ -66,9 +66,9 @@ Ideal simulation yields:
 ## Repository Structure
 
 ```text
-├── transport.py
-├── circuit.png
-├── histogram.png
+├── src/transport.py
+├── results/circuit.png
+├── results/histogram.png
 ├── README.md
 └── requirements.txt
 ```
